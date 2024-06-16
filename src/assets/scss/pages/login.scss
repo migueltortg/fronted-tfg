@@ -1,0 +1,44 @@
+.loginPage {
+  height: 100vh;
+  background-image: url("../../../public/img/fondoLoginRegistro.png");
+  background-size: cover;
+  * {
+    font-family: "Arial";
+    font-weight: bold;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .parent-container {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .login_container {
+    height: auto;
+    border-radius: 8px;
+    background-color: white;
+    padding: 16px 20px;
+  }
+
+  .login_tit {
+    h3 {
+      color: #004494 !important;
+      font-size: 26px;
+    }
+    text-align: center;
+  }
+
+  .loginButton {
+    width: 100%;
+    background-color: #004494;
+    border: 0px;
+    box-shadow: none !important;
+  }
+
+  .loginButton span {
+    font-size: 1.3em;
+  }
+}

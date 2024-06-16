@@ -1,0 +1,209 @@
+@charset "UTF-8";
+body {
+  margin: 0px !important; }
+
+.loginPage {
+  height: 100vh;
+  background-image: url("../../../public/img/fondoLoginRegistro.png");
+  background-size: cover; }
+  .loginPage * {
+    font-family: "Arial";
+    font-weight: bold; }
+  .loginPage body {
+    margin: 0; }
+  .loginPage .parent-container {
+    display: flex !important;
+    justify-content: center !important; }
+  .loginPage .login_container {
+    height: auto;
+    border-radius: 8px;
+    background-color: white;
+    padding: 16px 20px; }
+  .loginPage .login_tit {
+    text-align: center; }
+    .loginPage .login_tit h3 {
+      color: #004494 !important;
+      font-size: 26px; }
+  .loginPage .loginButton {
+    width: 100%;
+    background-color: #004494;
+    border: 0px;
+    box-shadow: none !important; }
+  .loginPage .loginButton span {
+    font-size: 1.3em; }
+
+.registroPage {
+  height: 100vh;
+  background-image: url("../../../public/img/fondoLoginRegistro.png");
+  background-size: cover; }
+  .registroPage * {
+    font-family: "Arial";
+    font-weight: bold; }
+  .registroPage body {
+    margin: 0; }
+  .registroPage .parent-container {
+    display: flex !important;
+    justify-content: center !important; }
+  .registroPage .register_container {
+    border-radius: 8px;
+    background-color: white; }
+  .registroPage .register_tit {
+    text-align: center; }
+    .registroPage .register_tit h3 {
+      color: #004494 !important;
+      font-size: 26px; }
+  .registroPage .formTit {
+    color: #004494; }
+  .registroPage .formInput {
+    border: 4px solid #004494; }
+  .registroPage .formInputError {
+    border: 4px solid red; }
+  .registroPage .formInputContainer {
+    margin-right: 10px; }
+
+.tablaItemsBaremables {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left; }
+
+.tablaItemsBaremables thead {
+  background-color: #f2f2f2; }
+
+.tablaItemsBaremables th,
+.tablaItemsBaremables td {
+  padding: 12px 15px;
+  border: 1px solid #ddd; }
+
+/* Estilos de las filas */
+.tablaItemsBaremables tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9; }
+
+.tablaItemsBaremables tbody tr:hover {
+  background-color: #f1f1f1; }
+
+/* Estilos de los botones */
+.tablaItemsBaremables button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.tablaItemsBaremables button:hover {
+  background-color: #ddd; }
+
+.tablaItemsBaremables button:focus {
+  outline: none; }
+
+/* Estilos específicos para los botones de acción */
+.tablaItemsBaremables .edit-button {
+  background-color: #4caf50;
+  color: white; }
+
+.tablaItemsBaremables .delete-button {
+  background-color: #f44336;
+  color: white; }
+
+.tablaItemsBaremables .save-button {
+  background-color: #2196f3;
+  color: white; }
+
+.tablaItemsBaremables .cancel-button {
+  background-color: #ff9800;
+  color: white; }
+
+/* Estilos para la tabla vacía */
+.tablaItemsBaremables.tabla-vacia {
+  border: 2px solid red; }
+
+.tablaItemsBaremables .empty-message {
+  text-align: center;
+  color: red; }
+
+.tablaItemsSolicitud {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; }
+
+.tablaItemsSolicitud th,
+.tablaItemsSolicitud td {
+  border: 1px solid #ddd;
+  padding: 8px; }
+
+.tablaItemsSolicitud th {
+  background-color: #f2f2f2;
+  text-align: left; }
+
+.tablaItemsSolicitud tr:nth-child(even) {
+  background-color: #f9f9f9; }
+
+.tablaItemsSolicitud tr:hover {
+  background-color: #f1f1f1; }
+
+input[type="file"] {
+  padding: 6px; }
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse; }
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left; }
+
+.custom-table th {
+  background-color: #f2f2f2; }
+
+.table-row:nth-child(even) {
+  background-color: #f2f2f2; }
+
+.item-name {
+  font-weight: bold; }
+
+.file-column {
+  width: 150px;
+  /* Ajusta el ancho según sea necesario */ }
+
+.note-column {
+  width: 100px;
+  /* Ajusta el ancho según sea necesario */ }
+
+.ant-modal-content {
+  width: 85vw; }
+
+.tareasUpload .ant-upload-list,
+.ant-upload,
+.ant-upload-wrapper {
+  width: 100%; }
+
+.tablaTareas-container {
+  width: 100%;
+  overflow-x: auto; }
+
+.tablaTareas {
+  border-collapse: collapse;
+  border: 1px solid #ddd; }
+
+.tablaTareas th, .tablaTareas td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  /* Evita que los textos se dividan en varias líneas */ }
+
+.tablaTareas th {
+  background-color: #f2f2f2;
+  min-width: 150px;
+  /* Ancho mínimo para evitar división de texto */ }
+
+.tablaTareas tbody tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+.tablaTareas tbody tr:hover {
+  background-color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */

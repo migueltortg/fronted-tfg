@@ -1,0 +1,47 @@
+.registroPage {
+  height: 100vh;
+  background-image: url("../../../public/img/fondoLoginRegistro.png");
+  background-size: cover;
+  * {
+    font-family: "Arial";
+    font-weight: bold;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .parent-container {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .register_container {
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .register_tit {
+    h3 {
+      color: #004494 !important;
+      font-size: 26px;
+    }
+    text-align: center;
+  }
+
+  .formTit{
+    color: #004494 ;
+  }
+
+  .formInput{
+    border: 4px solid #004494;
+  }
+
+  .formInputError{
+    border: 4px solid red;
+  }
+
+  .formInputContainer{
+    margin-right: 10px;
+  }
+}

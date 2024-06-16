@@ -1,0 +1,98 @@
+.tablaItemsBaremables {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.tablaItemsBaremables thead {
+  background-color: #f2f2f2;
+}
+
+.tablaItemsBaremables th,
+.tablaItemsBaremables td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos de las filas */
+.tablaItemsBaremables tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.tablaItemsBaremables tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilos de los botones */
+.tablaItemsBaremables button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tablaItemsBaremables button:hover {
+  background-color: #ddd;
+}
+
+.tablaItemsBaremables button:focus {
+  outline: none;
+}
+
+/* Estilos específicos para los botones de acción */
+.tablaItemsBaremables .edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tablaItemsBaremables .delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.tablaItemsBaremables .save-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.tablaItemsBaremables .cancel-button {
+  background-color: #ff9800;
+  color: white;
+}
+
+/* Estilos para la tabla vacía */
+.tablaItemsBaremables.tabla-vacia {
+  border: 2px solid red;
+}
+
+.tablaItemsBaremables .empty-message {
+  text-align: center;
+  color: red;
+}
+
+.tablaItemsSolicitud {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.tablaItemsSolicitud th,
+.tablaItemsSolicitud td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tablaItemsSolicitud th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+.tablaItemsSolicitud tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.tablaItemsSolicitud tr:hover {
+  background-color: #f1f1f1;
+}
+input[type="file"] {
+  padding: 6px;
+}
